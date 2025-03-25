@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamiz Thoughts - Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mamiz Thoughts</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="featured">
+            <h2>Featured Post</h2>
+            <article>
+                <img src="featured.jpg" alt="Featured Blog Post">
+                <h3>How to Stay Organized with ADHD</h3>
+                <p>A quick guide on managing time and focus effectively...</p>
+                <a href="#">Read More</a>
+            </article>
+        </section>
+        
+        <section class="blog-posts">
+            <h2>Latest Posts</h2>
+            <article>
+                <h3>5 Tips for a Stress-Free Morning Routine</h3>
+                <p>Discover easy hacks to make mornings smoother...</p>
+                <a href="#">Read More</a>
+            </article>
+            <article>
+                <h3>Best Budget-Friendly Meals for Families</h3>
+                <p>Delicious and affordable meal ideas for your family...</p>
+                <a href="#">Read More</a>
+            </article>
+        </section>
+    </main>
+    
+    <aside class="ads">
+        <h2>Sponsored</h2>
+        <div class="ad-space">Ad Placement 1</div>
+        <div class="ad-space">Ad Placement 2</div>
+    </aside>
+    
+    <footer>
+        <p>&copy; 2025 Mamiz Thoughts. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
